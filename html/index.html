@@ -30,12 +30,27 @@
   <!-- Vitrina de productos -->
   <main>
     <div class="filtros">
-      <h2>Filtros</h2>
+      <h1>Filtros</h1>
       <form action="">
       <ul class="tipo_filtros">
-        <li>Precios</li>
-        <li>Tipo de carta</li>
-        <li>Promoción</li>
+        <li><h2>Precios</h2></li>
+        <li><select class="seleccionar_precio">
+          <option value="Precios">Precios</option>
+          <option value="Mayor>menor">Mayor a menor</option>
+          <option value="Menor>mayor">Menor a mayor</option>
+        </select></li>
+
+        <li><h2>Tipo de carta</h2></li>
+        <li><select class="tipo_carta">
+          <option value="Precios">Precios</option>
+          <option value="Mayor>menor">Mayor a menor</option>
+          <option value="Menor>mayor">Menor a mayor</option>
+
+        </select></li>
+        <li>
+    <input type="checkbox" name="promociones" class="promociones" id="promociones" value="promociones"> <b>Promoción</b>
+       </li>
+       <input type="submit" id="filtro_input" value="Filtrar">
       </ul>
     </form>
     </div>

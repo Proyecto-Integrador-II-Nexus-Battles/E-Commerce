@@ -64,7 +64,7 @@ width: 70px;
 .container_general {
   width: 80%;
   background-color: #A3B7DC;
-  margin-left: 7%;
+  margin-left: 2%;
   margin-right: 3%;
   margin-top: 20px;
   position: relative;
@@ -85,9 +85,6 @@ width: 70px;
   text-align: center;
 }
 
-/* png de filtro */
-
-
 /* search icon */
 .search_icon {
   position: relative;
@@ -97,20 +94,29 @@ width: 70px;
 }
 
 /* Estilos de las cartas/productos */
-.container_productos {
+/* .container_productos {
   display: flex;
   margin-top: 20px;
   margin-left: 12%;
   margin-right: 100px;
   gap: 4em;
   flex-wrap: wrap;
+} */
+
+main{
+  display: flex;
 }
 /* Filtros */
 .filtros{
-  margin-top: 20px;
   margin-left: 20px;
   background-color: #A3B7DC;
   width: 200px;
+  margin-top: 20px;
+}
+.filtros h1{
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin-top: 10px;
 }
 .tipo_filtros{
 list-style: none;
@@ -118,11 +124,39 @@ list-style: none;
 .tipo_filtros li{
   margin-top: 10px;
   font-size: 18px;
-}
-main{
-  display: flex;
+  cursor:pointer;
+  margin-left: 10px;
 }
 
+/* Filtro selects */
+.tipo_carta, .seleccionar_precio{
+  width: 160px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.promociones + b {
+  font-size: 20px;
+padding-top: 2px;
+}
+.promociones{
+  transform: scale(1.4);
+}
+
+/* Filtro boton enviar */
+#filtro_input{
+margin-top: 15px;
+width: 140px;
+margin-left: 25px;
+margin-right: 20px;
+height: 20px;
+font-weight: bold;
+font-size: 16px;
+padding-bottom: 20px;
+margin-bottom: 10px;
+cursor: pointer;
+border-radius: 7px;
+}
 /* Carta */
 /* .card {
   border: 1px solid #9E9E9E;
@@ -204,7 +238,28 @@ main{
   width: 500px;
   height: 30px;
 }
-
+.tipo_filtros{
+  width: 300px;
+}
+.tipo_filtros li{
+  font-size: 20px;
+}
+.seleccionar_precio, .tipo_carta{
+  font-size: 20px;
+}
+.promociones + b {
+  font-size: 24px;
+padding-top: 2px;
+}
+.promociones{
+  transform: scale(1.4);
+}
+#filtro_input{
+width: 150px;
+margin-left: 20px;
+font-size: 20px;
+padding-bottom: 23px;
+}
 }
 @media screen and (min-width: 1630px) {
   header {
@@ -303,7 +358,7 @@ main{
 
   #navbar {
     position: absolute;
-    top: 9.5%;
+    top: 9.7%;
     right: 0;
     background-color: #18233F;
     padding: 1.2rem;
@@ -326,9 +381,12 @@ main{
     margin-left: 40px;
     margin-right: 20px;
   }
+  .barra_busqueda .search_input{
+    margin-left: 60px;
+    }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:660px){
 
 .barra_busqueda .search_input{
 margin-left: 60px;
@@ -345,6 +403,12 @@ margin-left: 60px;
 .abrir-btn{
   margin-left: auto;
   margin-right: 20px;
+}
+main{
+  display: block;
+}
+#navbar{
+  top: 58px;
 }
 
 }
