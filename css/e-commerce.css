@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #304C8B;
 }
 
 /* Estilos navbar */
@@ -63,9 +63,9 @@ width: 70px;
 /* Vitrina de productos */
 .container_general {
   width: 80%;
-  background-color: #D9D9D9;
-  margin-left: 10%;
-  margin-right: 20%;
+  background-color: #A3B7DC;
+  margin-left: 7%;
+  margin-right: 3%;
   margin-top: 20px;
   position: relative;
 }
@@ -86,21 +86,13 @@ width: 70px;
 }
 
 /* png de filtro */
-.filtro_busqueda {
-  position: relative;
-  width: 30px;
-  height: 29px;
-  margin-top: 1%;
-  right: -33px;
-  cursor: pointer;
-  border-right: 3px solid black;
-}
+
 
 /* search icon */
 .search_icon {
   position: relative;
   height: 24px;
-  margin-top: 1.3%;
+  margin-top: 1.4%;
   right: 30px;
 }
 
@@ -113,12 +105,31 @@ width: 70px;
   gap: 4em;
   flex-wrap: wrap;
 }
+/* Filtros */
+.filtros{
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #A3B7DC;
+  width: 200px;
+}
+.tipo_filtros{
+list-style: none;
+}
+.tipo_filtros li{
+  margin-top: 10px;
+  font-size: 18px;
+}
+main{
+  display: flex;
+}
+
 /* Carta */
-.card {
+/* .card {
   border: 1px solid #9E9E9E;
   border-radius: 5px;
   box-shadow: 0px 5px 5px rgba(39, 38, 38, 0.755);
   transition: transform 0.3s ease;
+  background-color: white;
 }
 .card:hover{
   transform: translateY(-5px);
@@ -182,66 +193,18 @@ width: 70px;
   border-radius: 7px;
   margin-right: 10px;
   white-space: normal;
-}
+} */
 
-/* 1312 */
-/* 1182 */
-/* ARREGLAR NAVBAR */
-/* Media navbar */
-
-/* 1768 */
-/* 1665 */
-
-@media screen and (max-width:1681px) and (min-width:1664px){
-  .container_productos{
-    margin-left: 110px;
-  }
-    .card{
-  margin-left: 20px;
-  }
-  .informacion_carta p{
-    font-size: 40px;
-  }
-  .informacion_carta li{
-    font-size: 25px;
-  }
-  .options-card #wish-list{
-    font-size: 25px;
-  }
-  .options-card #carrito{
-    font-size: 24px;
-    white-space: normal;
-  }
-  .opciones{
-  margin-top: -20px;
-  }
-
-}
 
 @media screen and (min-width:1682px) and (max-width:1920px){
-.container_productos{
-  margin-left: 10%;
+.search_form .search_icon{
+  top: -2px;
 }
-  .card{
-margin-left: 50px;
-}
-.informacion_carta p{
-  font-size: 40px;
-}
-.informacion_carta li{
-  font-size: 25px;
-}
-.options-card #wish-list{
-  font-size: 20px;
-}
-.options-card #carrito{
-  font-size: 20px;
-  white-space: normal;
+.search_form .search_input{
+  width: 500px;
+  height: 30px;
 }
 
-.opciones li{
-  margin-top: -12px;
-}
 }
 @media screen and (min-width: 1630px) {
   header {
@@ -251,19 +214,21 @@ margin-left: 50px;
     font-size: 35px;
   }
 
+  .opciones{
+    margin-top: -10px;
+  }
   .opciones li button {
     font-size: 35px;
     width: 150px;
   }
+  .search_form .search_input{
+    width: 300px;
+  }
 }
-/* 1716 */
-/* 1682 */
 
-/* 12633424324 */
-/* 1197 */
-@media screen and (max-width:1197px) {
+@media screen and (max-width:1212px) {
   .opciones li a {
-    font-size: 21px;
+    font-size: 23px;
   }
 
   .opciones li {
@@ -280,18 +245,8 @@ margin-left: 50px;
     width: 100px;
     margin-left: 0;
   }
-
-  .card{
-    margin-left: 36px;
-    margin-right: -35px;
-  }
-  .container_productos{
-    margin:auto;
-    margin-top: 20px;
-    gap:3em;
-  }
 }
-
+/* // */
 @media screen and (max-width:1071px){
   .card{
     margin-left: 12px;
@@ -329,7 +284,7 @@ margin-left: 50px;
     height: 5vh;
     padding-top: 15px;
     cursor: pointer;
-    background-color: aqua;
+    margin-right: 20px;
   }
 
   .opciones {
@@ -348,9 +303,9 @@ margin-left: 50px;
 
   #navbar {
     position: absolute;
-    top: 6.3%;
+    top: 9.5%;
     right: 0;
-    background-color: black;
+    background-color: #18233F;
     padding: 1.2rem;
     height: 100%;
     display: flex;
@@ -373,54 +328,23 @@ margin-left: 50px;
   }
 }
 
-@media screen and (max-width:838px) {
-  header {
-    width: 100%;
-  }
+@media screen and (max-width:500px){
 
-
-  #navbar {
-    top: 56px;
-  }
-
-  header .login_btn{
-    position: absolute;
-    right: 10px;
-    background-color: aqua;
-  }
-}
-@media screen and (max-width:693px){
-.informacion_carta p{
-  font-size: 18px;
-}
-.informacion_carta li{
-  font-size: 15px;
-}
-.options-card #wish-list{
-font-size: 14px;
-width: 35%;
-}
-.options-card #carrito{
-  font-size: 14px;
-  width: 40%;
-white-space: normal;
-}
-.card{
-  box-sizing: border-box;
-  width: 40%;
-  margin-left: 0;
-}
-.card img{
-  width: 80%;
-}
 .barra_busqueda .search_input{
-margin-left: 40px;
+margin-left: 60px;
 }
-.search_form .filtro_busqueda{
- left: 70px;
-}
+
 .search_form .search_icon{
-  right: 56px;
+  right: 28px;
   top: 2px;
+  width: 20px;
 }
+.logo_img{
+  margin-left: 10px;
+}
+.abrir-btn{
+  margin-left: auto;
+  margin-right: 20px;
+}
+
 }
