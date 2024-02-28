@@ -29,17 +29,22 @@
   </header>
   <!-- Vitrina de productos -->
   <main>
+    <!-- filtros -->
     <div class="filtros">
       <h1>Filtros</h1>
       <form action="">
       <ul class="tipo_filtros">
+        <!-- filtro precios -->
         <li><h2>Precios</h2></li>
         <li><select class="seleccionar_precio">
           <option value="#" disabled selected>Precios</option>
           <option value="Mayor>menor">Mayor a menor</option>
           <option value="Menor>mayor">Menor a mayor</option>
         </select></li>
-
+        <li class="rangos">
+          <p>Entre</p> <input type="number" name="rango_precio1" id="rango_precio1"> <p>y</p> <input type="number" name="rango_precio2" id="rango_precio2">
+        </li>
+<!-- Tipo de carta -->
         <li><h2>Tipo de carta</h2></li>
         <li><select class="tipo_carta">
           <option value="#" disabled selected>Selecciona un tipo</option>
@@ -50,6 +55,7 @@
           <option value="Picaro veneno">Picaro veneno</option>
           <option value="Picaro machete">Picaro machete</option>
         </select></li>
+        <!-- filtro promocion -->
         <li>
     <input type="checkbox" name="promociones" class="promociones" id="promociones" value="promociones">  <b>Promoción</b>
        </li>
@@ -108,7 +114,7 @@
                   <p>Ataque:</p>
                   <p>Daño:</p>
               </div>
-          </div>        
+          </div>
       </div>
 <!-- /// -->
 <div class="container_productos">
@@ -152,7 +158,7 @@
           <p>Ataque:</p>
           <p>Daño:</p>
       </div>
-  </div>        
+  </div>
 </div>
   </div>
   </main>
