@@ -183,7 +183,7 @@
     background-color: #ebc793;
     border-radius: 14px 0px 14px 0px;
     text-align: center;
-    margin-top: -14.1rem;
+    margin-top: -16.5rem;
     margin-left: -0.3rem;
 }
 
@@ -271,6 +271,10 @@
     border: 1px solid black;
 }
 
+.pedido:hover{
+  background-color: #ddb77f;
+}
+
 .añadir{
     margin-top: 0.3rem;
     padding: 14px;
@@ -287,7 +291,7 @@
     display: flex;
     width: 5rem;
     justify-content: space-between;
-    margin-left: 55rem;
+    margin-left: 70rem;
     font-weight: bold;
 }
 
