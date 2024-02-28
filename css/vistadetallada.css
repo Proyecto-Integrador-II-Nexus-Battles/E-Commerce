@@ -56,11 +56,54 @@ width: 70px;
   text-align: center;
   margin-top: 2px;
 }
-
 .abrir-btn{
   display: none;
 }
-
+/* main */
+.container_general{
+  background-color: #A3B7DC;
+  margin-left: 12%;
+  margin-right: 10%;
+  margin-top: 2%;
+  display: flex;
+}
+.imagen_carta{
+  margin-right: 5%;
+}
+.card-img{
+  height: 400px;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+.calificacion_stars{
+  list-style: none;
+  display: flex;
+  margin-left: 25px;
+}
+.calificacion_stars li{
+  width: 40px;
+  margin-top: 6px;
+  margin-left: 12px;
+}
+.detalles_carta{
+margin-right: 2%;
+margin-top: 2%;
+border: 1px solid black;
+}
+.comentarios_container{
+  background-color: #A3B7DC;
+  margin-left: 12%;
+  margin-right: 10%;
+}
+.comentarios_container h2{
+  padding-top: 20px;
+}
+.comentarios{
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
 @media screen and (min-width:1682px) and (max-width:1920px){
 
 }
