@@ -97,6 +97,7 @@ border: 1px solid black;
 }
 .comentarios_container h2{
   padding-top: 20px;
+  margin-left: 10px;
 }
 .comentarios{
   border: 1px solid black;
@@ -215,9 +216,27 @@ border: 1px solid black;
     opacity: 1;
     visibility: visible;
   }
-
 }
 
+@media screen and (max-width:830px){
+  .container_general{
+    flex-wrap: wrap;
+  }
+  .imagen_carta{
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+  .calificacion_stars{
+    margin-left: 20%;
+  }
+  .detalles_carta{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .comentarios_container h2{
+    margin-left: 10px;
+  }
+}
 @media screen and (max-width:660px){
   .logo_img{
     margin-left: 10px;
@@ -226,5 +245,6 @@ border: 1px solid black;
     margin-left: auto;
     margin-right: 20px;
   }
+
   }
 
