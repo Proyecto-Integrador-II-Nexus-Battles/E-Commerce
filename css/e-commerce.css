@@ -5,6 +5,7 @@
 
 body {
   background-color: #304C8B;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Estilos navbar */
@@ -41,7 +42,7 @@ width: 70px;
 .opciones li a {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .opciones li button {
@@ -275,9 +276,8 @@ padding-bottom: 23px;
     margin-right: 15%;
   }
   .opciones li a {
-    font-size: 35px;
+    font-size: 30px;
   }
-
   .opciones{
     margin-top: -10px;
   }
@@ -290,9 +290,18 @@ padding-bottom: 23px;
   }
 }
 
+@media screen and (max-width:1246px) {
+  .opciones li a {
+    font-size: 20px;
+  }
+
+
+
+}
+
 @media screen and (max-width:1212px) {
   .opciones li a {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .opciones li {
@@ -300,7 +309,7 @@ padding-bottom: 23px;
   }
 
   .opciones {
-    gap: 1.2em;
+    gap: 1em;
     margin-left: 10px;
   }
 
@@ -326,7 +335,7 @@ padding-bottom: 23px;
   }
 
   .opciones li a {
-    font-size: 21px;
+    font-size: 20px;
   }
 
   .opciones li button {
@@ -439,8 +448,6 @@ margin-bottom: 90%;
   height: 800px;
 }
 
-#navbar{
-  top: 58px;
-}
+
 
 }
