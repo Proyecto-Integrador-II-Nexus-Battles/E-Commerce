@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Mystic Blade",
+    "type": "Weapon",
+    "price": 256000,
+    "sale": true
+  },
+  {
+    "name": "Shadow Cloak",
+    "type": "Armor",
+    "price": 412000,
+    "sale": false
+  },
+  {
+    "name": "Enchanted Amulet",
+    "type": "Items",
+    "price": 104000,
+    "sale": true
+  },
+  {
+    "name": "Eternal Staff",
+    "type": "Weapon",
+    "price": 378000,
+    "sale": false
+  },
+  {
+    "name": "Dragon Scale Armor",
+    "type": "Armor",
+    "price": 476000,
+    "sale": true
+  },
+  {
+    "name": "Potion of Healing",
+    "type": "Items",
+    "price": 98000,
+    "sale": false
+  },
+  {
+    "name": "Scepter of Power",
+    "type": "Weapon",
+    "price": 426000,
+    "sale": true
+  },
+  {
+    "name": "Golden Shield",
+    "type": "Armor",
+    "price": 334000,
+    "sale": false
+  },
+  {
+    "name": "Scroll of Knowledge",
+    "type": "Items",
+    "price": 214000,
+    "sale": true
+  },
+  {
+    "name": "Sword of Destiny",
+    "type": "Weapon",
+    "price": 492000,
+    "sale": false
+  },
+  {
+    "name": "Ancient Plate Armor",
+    "type": "Armor",
+    "price": 358000,
+    "sale": true
+  },
+  {
+    "name": "Ring of Invisibility",
+    "type": "Items",
+    "price": 186000,
+    "sale": false
+  },
+  {
+    "name": "Staff of Fire",
+    "type": "Weapon",
+    "price": 490000,
+    "sale": true
+  },
+  {
+    "name": "Silver Chainmail",
+    "type": "Armor",
+    "price": 244000,
+    "sale": false
+  },
+  {
+    "name": "Bag of Holding",
+    "type": "Items",
+    "price": 138000,
+    "sale": true
+  },
+  {
+    "name": "Dagger of Shadows",
+    "type": "Weapon",
+    "price": 200000,
+    "sale": false
+  },
+  {
+    "name": "Leather Vest",
+    "type": "Armor",
+    "price": 298000,
+    "sale": true
+  },
+  {
+    "name": "Wand of Healing",
+    "type": "Items",
+    "price": 346000,
+    "sale": false
+  },
+  {
+    "name": "Warhammer of Destruction",
+    "type": "Weapon",
+    "price": 500000,
+    "sale": true
+  },
+  {
+    "name": "Plate Mail",
+    "type": "Armor",
+    "price": 452000,
+    "sale": false
+  },
+  {
+    "name": "Amulet of Protection",
+    "type": "Items",
+    "price": 280000,
+    "sale": true
+  },
+  {
+    "name": "Sword of the Undead",
+    "type": "Weapon",
+    "price": 234000,
+    "sale": false
+  },
+  {
+    "name": "Chainmail Coif",
+    "type": "Armor",
+    "price": 386000,
+    "sale": true
+  },
+  {
+    "name": "Scroll of Teleportation",
+    "type": "Items",
+    "price": 308000,
+    "sale": false
+  },
+  {
+    "name": "Bow of Accuracy",
+    "type": "Weapon",
+    "price": 472000,
+    "sale": true
+  },
+  {
+    "name": "Robe of the Archmage",
+    "type": "Armor",
+    "price": 420000,
+    "sale": false
+  },
+  {
+    "name": "Potion of Strength",
+    "type": "Items",
+    "price": 152000,
+    "sale": true
+  },
+  {
+    "name": "Axe of Carnage",
+    "type": "Weapon",
+    "price": 496000,
+    "sale": false
+  },
+  {
+    "name": "Elven Chainmail",
+    "type": "Armor",
+    "price": 262000,
+    "sale": true
+  },
+  {
+    "name": "Ring of Protection",
+    "type": "Items",
+    "price": 402000,
+    "sale": false
+  },
+  {
+    "name": "Staff of Lightning",
+    "type": "Weapon",
+    "price": 488000,
+    "sale": true
+  },
+  {
+    "name": "Plate Gauntlets",
+    "type": "Armor",
+    "price": 318000,
+    "sale": false
+  },
+  {
+    "name": "Potion of Invisibility",
+    "type": "Items",
+    "price": 170000,
+    "sale": true
+  },
+  {
+    "name": "Rapier of Speed",
+    "type": "Weapon",
+    "price": 462000,
+    "sale": false
+  },
+  {
+    "name": "Scalemail Vest",
+    "type": "Armor",
+    "price": 390000,
+    "sale": true
+  },
+  {
+    "name": "Crystal Orb",
+    "type": "Items",
+    "price": 238000,
+    "sale": false
+  },
+  {
+    "name": "Mace of Destruction",
+    "type": "Weapon",
+    "price": 498000,
+    "sale": true
+  },
+  {
+    "name": "Leather Boots",
+    "type": "Armor",
+    "price": 270000,
+    "sale": false
+  },
+  {
+    "name": "Potion of Wisdom",
+    "type": "Items",
+    "price": 394000,
+    "sale": true
+  },
+  {
+    "name": "Staff of Ice",
+    "type": "Weapon",
+    "price": 484000,
+    "sale": false
+  },
+  {
+    "name": "Chain Leggings",
+    "type": "Armor",
+    "price": 306000,
+    "sale": true
+  },
+  {
+    "name": "Scroll of Restoration",
+    "type": "Items",
+    "price": 226000,
+    "sale": false
+  },
+  {
+    "name": "Greatsword of the Kings",
+    "type": "Weapon",
+    "price": 494000,
+    "sale": true
+  },
+  {
+    "name": "Plate Helm",
+    "type": "Armor",
+    "price": 346000,
+    "sale": false
+  },
+  {
+    "name": "Potion of Agility",
+    "type": "Items",
+    "price": 122000,
+    "sale": true
+  },
+  {
+    "name": "Flaming Whip",
+    "type": "Weapon",
+    "price": 480000,
+    "sale": false
+  },
+  {
+    "name": "Studded Leather",
+    "type": "Armor",
+    "price": 298000,
+    "sale": true
+  }
+]
