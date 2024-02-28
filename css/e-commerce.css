@@ -409,7 +409,7 @@ padding-bottom: 23px;
   position: absolute;
   z-index: 1;
   top: 120px;
- margin-left: 17%;
+ margin-left: 26%;
   margin-right: 18%;
   border: 1px solid black;
   width: 50%;
@@ -417,10 +417,15 @@ padding-bottom: 23px;
 
 .tipo_carta,.seleccionar_precio{
   width: 80%;
+  height: 30px;
 }
 
+.container_general{
+  margin-left: 40px;
+}
 #filtro_input{
-  
+margin-left: 14%;
+width: 70%;
 }
 .barra_busqueda .search_input{
 margin-left: 60px;
@@ -441,9 +446,7 @@ margin-bottom: 90%;
 .container_general{
   height: 800px;
 }
-/* main{
-  display: block;
-} */
+
 #navbar{
   top: 58px;
 }
