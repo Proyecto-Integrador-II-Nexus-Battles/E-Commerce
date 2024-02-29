@@ -185,6 +185,13 @@ border-radius: 7px;
   transition: transform 0.3s ease;
   margin-bottom: 20px;
   padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.card:hover
+{
+  transform: translateY(-20px);
 }
 .card-new
 {
@@ -474,4 +481,17 @@ margin-bottom: 90%;
   margin-right: 2px;
 }
 
+}
+
+
+.precio
+{
+  background-color: #BE684F;
+  z-index: 1;
+  position: relative;
+  top: -20px;
+  width: 50%;
+  left: 50%;
+  text-align: center;
+  border-radius: 2px 2px 0 0 ;
 }
