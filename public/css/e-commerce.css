@@ -134,21 +134,6 @@ margin-top: 10px;
 .promociones{
   transform: scale(1.4);
 }
-.rangos{
-  display: flex;
-  padding-top: 10px;
-}
-#rango_precio1,#rango_precio2{
-  width: 60px;
-  margin-left: 5px;
-  margin: 2px;
-  border-radius: 7px;
-  border: 1px solid black;
-  height: 25px;
-}
-.rangos p{
-  margin-right: 2px;
-}
 
 
 /* Filtro boton enviar */

@@ -47,7 +47,7 @@ export const defaultR = (req, res) => {
     dano: "si",
     imagen: "/img/cedric.jpg"
   },
-  {
+   {
     nombre: "Home",
     poder: "Hello World",
     vida: "si",
