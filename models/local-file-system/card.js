@@ -1,29 +1,23 @@
 import { readJSON } from '../../utils.js'
 
 export class CardModel {
-  static async getAll ({ type, minPrice, sale }) {
+  static async getAll ({ type, minPrice, maxPrice, sale, sortOrder }) {
     let cards = readJSON('./cards.json')
-    // Aplicar filtros según las condiciones proporcionadas
 
     if (typeof sale === 'string') {
       sale = sale.toLowerCase() === 'true'
     }
-
-    console.log(typeof sale)
-    console.log(type, minPrice, sale)
-    cards.forEach(card => {
-      console.log(
-        'entro',
-        !type || card.type.toLowerCase() === type.toLowerCase(),
-        !minPrice || card.price >= minPrice,
-        !sale || card.sale === sale
-      )
-    })
+    if (sortOrder === 'asc') {
+      cards.sort((a, b) => a.price - b.price)
+    } else if (sortOrder === 'desc') {
+      cards.sort((a, b) => b.price - a.price)
+    }
 
     cards = cards.filter(card => {
       return (
         (!type || card.type.toLowerCase() === type.toLowerCase()) &&
         (!minPrice || card.price >= minPrice) &&
+        (!maxPrice || card.price <= maxPrice) &&
         (!sale || card.sale === sale)
       )
     })
@@ -31,3 +25,5 @@ export class CardModel {
     return cards
   }
 }
+
+//
