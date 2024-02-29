@@ -39,9 +39,9 @@
             <h2>Precios</h2>
           </li>
           <li><select class="seleccionar_precio">
-              <option value="#" disabled selected>Precios</option>
-              <option value="Mayor>menor">Mayor a menor</option>
-              <option value="Menor>mayor">Menor a mayor</option>
+              <option value="#" disabled selected>Precios</soption>
+              <option value="desc">Mayor a menor</option>
+              <option value="asc">Menor a mayor</option>
             </select></li>
           <li class="rangos">
             <p>Entre</p> <input type="number" name="rango_precio1" id="rango_precio1">
@@ -82,15 +82,15 @@
         <% for (var i = 0; i < datos.length; i++) { %>
         <div class="card">
           <div class="imagen_carta">
-            <img src= <% datos[i].imagen %> class="personaje">
+            <img src= <%= datos[i].imagen %> class="personaje">
           </div>
           <div class="informacion_carta">
-            <p><% datos[i].nombre%></p>
-            <p>Poder: <% datos[i].poder %></p>
-            <p>Vida: <%  datos[i].vida%></p>
-            <p>Defensa: <%  datos[i].defensa%></p>
-            <p>Ataque: <%  datos[i].ataque%></p>
-            <p>Daño: <%  datos[i].dano%></p>
+            <p><%= datos[i].nombre %></p>
+            <p>Poder: <%= datos[i].poder %></p>
+            <p>Vida: <%= datos[i].vida %></p>
+            <p>Defensa: <%= datos[i].defensa %></p>
+            <p>Ataque: <%= datos[i].ataque %></p>
+            <p>Daño: <%= datos[i].dano %></p>
           </div>
         </div>
         <% } %>
