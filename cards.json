@@ -1,0 +1,57 @@
+[
+  {
+      "_id": "65e004b8d78c38cb14177fd1",
+      "nombre": "Mystic Blade",
+      "poder": "Si",
+      "vida": "Si",
+      "defensa": "Si",
+      "ataque": "Si",
+      "dano": "Si",
+      "imagen": "Si",
+      "__v": 0
+  },
+  {
+      "_id": "65e004bdd78c38cb14177fd3",
+      "nombre": "Mystic Blade2",
+      "poder": "Si",
+      "vida": "Si",
+      "defensa": "Si",
+      "ataque": "Si",
+      "dano": "Si",
+      "imagen": "Si",
+      "__v": 0
+  },
+  {
+      "_id": "65e004c0d78c38cb14177fd5",
+      "nombre": "Mystic Blade3",
+      "poder": "Si",
+      "vida": "Si",
+      "defensa": "Si",
+      "ataque": "Si",
+      "dano": "Si",
+      "imagen": "Si",
+      "__v": 0
+  },
+  {
+      "_id": "65e004c3d78c38cb14177fd7",
+      "nombre": "Mystic Blade4",
+      "poder": "Si",
+      "vida": "Si",
+      "defensa": "Si",
+      "ataque": "Si",
+      "dano": "Si",
+      "imagen": "Si",
+      "__v": 0
+  },
+  {
+      "_id": "65e004c7d78c38cb14177fd9",
+      "nombre": "Mystic Blade5",
+      "poder": "Si",
+      "vida": "Si",
+      "defensa": "Si",
+      "ataque": "Si",
+      "dano": "Si",
+      "imagen": "Si",
+      "__v": 0
+  }
+]
