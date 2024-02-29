@@ -46,6 +46,15 @@ export const defaultR = (req, res) => {
     ataque: "si",
     dano: "si",
     imagen: "/img/cedric.jpg"
+  },
+  {
+    nombre: "Home",
+    poder: "Hello World",
+    vida: "si",
+    defensa: "si",
+    ataque: "si",
+    dano: "si",
+    imagen: "/img/cedric.jpg"
   }
 
 ];
