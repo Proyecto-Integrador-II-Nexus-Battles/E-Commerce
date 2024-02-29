@@ -64,7 +64,7 @@ export const defaultR = (req, res) => {
 
 
 export const defaultR2 = (req, res) => {
-  res.render("admin_main_page");
+  res.render("vistaDetallada");
 };
 
 export const defaultR3 = (req, res) => {
