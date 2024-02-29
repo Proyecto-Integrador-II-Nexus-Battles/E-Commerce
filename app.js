@@ -1,5 +1,5 @@
 import express, { json } from 'express'
-import { cardsRouter } from './routes/cards.js'
+import { cardsRouter } from './src/routes/cards.js'
 import mongoose from 'mongoose'
 import dotenv from 'dotenv';
 dotenv.config();
