@@ -77,9 +77,9 @@
       <!-- /// -->
       <div class="container_productos">
         <% for (var i = 0; i < datos.length; i++) { %>
-        <div class="card">
+        <div class="card" onclick="vistaDetallada()">
           <div class="imagen_carta">
-            <img src= <%= datos[i].imagen %> class="personaje">
+            <img src=<%= datos[i].imagen %> class="personaje">
           </div>
           <div class="informacion_carta">
             <p><%= datos[i].nombre %></p>
@@ -95,6 +95,7 @@
     </div>
   </main>
   <script src="/js/navbar.js"></script>
+  <script src="/js/vistaDet.js"></script>
 </body>
 
 </html>
