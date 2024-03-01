@@ -3,4 +3,4 @@ import { CardsController } from '../controllers/cards.js'
 
 export const cardsRouter = Router()
 
-cardsRouter.get('/', CardsController.getAll)
+cardsRouter.get('/', CardsController.getAll) // -> Read all cards

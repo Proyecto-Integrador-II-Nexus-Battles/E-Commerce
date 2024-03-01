@@ -3,4 +3,4 @@ GET http://localhost:3000/cards
 
 
 #### Filtrado Unitario // Items - Weapon - Armor - Epic
-GET http://localhost:3000/cards?minPrice=0&type=Weapon&sale=false
+GET http://localhost:3000/cards?TypeCard=Weapon
