@@ -134,21 +134,6 @@ margin-top: 10px;
 .promociones{
   transform: scale(1.4);
 }
-.rangos{
-  display: flex;
-  padding-top: 10px;
-}
-#rango_precio1,#rango_precio2{
-  width: 60px;
-  margin-left: 5px;
-  margin: 2px;
-  border-radius: 7px;
-  border: 1px solid black;
-  height: 25px;
-}
-.rangos p{
-  margin-right: 2px;
-}
 
 
 /* Filtro boton enviar */
@@ -174,7 +159,7 @@ border-radius: 7px;
   justify-content: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 1px;
 }
 /* Carta */
@@ -185,13 +170,8 @@ border-radius: 7px;
   transition: transform 0.3s ease;
   margin-bottom: 20px;
   padding-bottom: 10px;
-  margin-top: 20px;
-  background-color: white;
-}
-
-.card:hover
-{
-  transform: translateY(-20px);
+  margin-left: 7%;
+  cursor: pointer;
 }
 .card-new
 {
@@ -481,17 +461,4 @@ margin-bottom: 90%;
   margin-right: 2px;
 }
 
-}
-
-
-.precio
-{
-  background-color: #BE684F;
-  z-index: 1;
-  position: relative;
-  top: -20px;
-  width: 50%;
-  left: 50%;
-  text-align: center;
-  border-radius: 2px 2px 0 0 ;
 }
