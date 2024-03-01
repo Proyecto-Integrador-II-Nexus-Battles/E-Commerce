@@ -70,7 +70,8 @@ export const defaultR2 = (req, res) => {
     defensa: "si",
     ataque: "si",
     dano: "si",
-    imagen: "/img/cedric.jpg"
+    imagen: "/img/cedric.jpg",
+    descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, aliquid."
   },
   {
     nombre: "Home",
@@ -79,7 +80,8 @@ export const defaultR2 = (req, res) => {
     defensa: "si",
     ataque: "si",
     dano: "si",
-    imagen: "/img/cedric.jpg"
+    imagen: "/img/cedric.jpg",
+    descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, aliquid."
   },
   {
     nombre: "Home",
@@ -88,7 +90,8 @@ export const defaultR2 = (req, res) => {
     defensa: "si",
     ataque: "si",
     dano: "si",
-    imagen: "/img/cedric.jpg"
+    imagen: "/img/cedric.jpg",
+    descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, aliquid."
   },
   {
     nombre: "Home",
@@ -97,7 +100,8 @@ export const defaultR2 = (req, res) => {
     defensa: "si",
     ataque: "si",
     dano: "si",
-    imagen: "/img/cedric.jpg"
+    imagen: "/img/cedric.jpg",
+    descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, aliquid."
   },
   {
     nombre: "Home",
@@ -106,7 +110,8 @@ export const defaultR2 = (req, res) => {
     defensa: "si",
     ataque: "si",
     dano: "si",
-    imagen: "/img/cedric.jpg"
+    imagen: "/img/cedric.jpg",
+    descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, aliquid."
   },
    {
     nombre: "Home",
@@ -115,7 +120,8 @@ export const defaultR2 = (req, res) => {
     defensa: "si",
     ataque: "si",
     dano: "si",
-    imagen: "/img/cedric.jpg"
+    imagen: "/img/cedric.jpg",
+    descripcion:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, aliquid."
   }
 
 ];
