@@ -28,18 +28,25 @@
   <!-- Main -->
   <main>
 <div class="container_general">
+  <% for (var i = 0; i < datos.length; i++) { %>
 <div class="imagen_carta">
-  <img src="../img/Zephyr Shadowblade.jpg" class="card-img">
+  <img src=<%= datos[i].imagen %>  class="card-img">
 <ul class="calificacion_stars">
-  <li><img src="../img/star-regular.svg"></li>
-  <li><img src="../img/star-regular.svg"></li>
-  <li><img src="../img/star-regular.svg"></li>
-  <li><img src="../img/star-regular.svg"></li>
-  <li><img src="../img/star-regular.svg"></li>
+  <li><img src="/img/star-regular.svg"></li>
+  <li><img src="/img/star-regular.svg"></li>
+  <li><img src="/img/star-regular.svg"></li>
+  <li><img src="/img/star-regular.svg"></li>
+  <li><img src="/img/star-regular.svg"></li>
 </ul>
 </div>
 <div class="detalles_carta">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laudantium quas dolore, libero doloribus temporibus voluptatem fuga repudiandae similique id tempore veniam molestias ipsum dolor error blanditiis illum provident earum ipsa voluptas unde consequuntur ratione vitae? Quasi aliquid doloremque modi.</p>
+  <p><%= datos[i].nombre %></p>
+  <p>Poder: <%= datos[i].poder %></p>
+  <p>Vida: <%= datos[i].vida %></p>
+  <p>Defensa: <%= datos[i].defensa %></p>
+  <p>Ataque: <%= datos[i].ataque %></p>
+  <p>Daño: <%= datos[i].dano %></p>
+  <p><b>Descripción:</b>a</p>
 </div>
 <div class="comentarios_container">
 <h2>Comentarios</h2>
@@ -47,7 +54,7 @@
   aaaaaaa
 </div>
 </div>
-
+<% } %>
 </div>
 </main>
 <script src="../js/navbar.js"></script>

@@ -58,13 +58,68 @@ export const defaultR = (req, res) => {
   }
 
 ];
-  console.log(datos)
   res.render("index", {datos});
 };
 
 
 export const defaultR2 = (req, res) => {
-  res.render("vistaDetallada");
+  const datos = [{
+    nombre: "Home",
+    poder: "Hello World",
+    vida: "si",
+    defensa: "si",
+    ataque: "si",
+    dano: "si",
+    imagen: "/img/cedric.jpg"
+  },
+  {
+    nombre: "Home",
+    poder: "Hello World",
+    vida: "si",
+    defensa: "si",
+    ataque: "si",
+    dano: "si",
+    imagen: "/img/cedric.jpg"
+  },
+  {
+    nombre: "Home",
+    poder: "Hello World",
+    vida: "si",
+    defensa: "si",
+    ataque: "si",
+    dano: "si",
+    imagen: "/img/cedric.jpg"
+  },
+  {
+    nombre: "Home",
+    poder: "Hello World",
+    vida: "si",
+    defensa: "si",
+    ataque: "si",
+    dano: "si",
+    imagen: "/img/cedric.jpg"
+  },
+  {
+    nombre: "Home",
+    poder: "Hello World",
+    vida: "si",
+    defensa: "si",
+    ataque: "si",
+    dano: "si",
+    imagen: "/img/cedric.jpg"
+  },
+   {
+    nombre: "Home",
+    poder: "Hello World",
+    vida: "si",
+    defensa: "si",
+    ataque: "si",
+    dano: "si",
+    imagen: "/img/cedric.jpg"
+  }
+
+];
+  res.render("vistaDetallada", {datos});
 };
 
 export const defaultR3 = (req, res) => {
