@@ -13,7 +13,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  background-color: #18233F;
+  background-color: #D8E9F9;
   margin-right: 9%;
 }
 
@@ -23,7 +23,7 @@ width: 70px;
 
 #navbar {
   height: 60px;
-  background-color: #18233F;
+  background-color: #D8E9F9;
 }
 
 .opciones {
@@ -41,12 +41,13 @@ width: 70px;
 
 .opciones li a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 24px;
 }
 
 .opciones li button {
   font-size: 24px;
+  color:white;
   height: 90%;
   width: 110px;
   cursor: pointer;
@@ -55,6 +56,7 @@ width: 70px;
   border: none;
   text-align: center;
   margin-top: 2px;
+  background-color: #789DCA;
 }
 
 .abrir-btn{
@@ -380,7 +382,7 @@ padding-bottom: 23px;
     position: absolute;
     top: 9.7%;
     right: 0;
-    background-color: #18233F;
+    background-color: #D8E9F9;
     padding: 1.2rem;
     height: 100%;
     display: flex;
