@@ -11,7 +11,7 @@
    <header>
     <img src="../img/logo.png" class="logo_img" alt="">
       <!-- Barra de navegación -->
-    <img src="../img/hamburguesa_icon.svg" class="abrir-btn" alt="">
+    <img src="/img/hamburguer_icon.svg" class="abrir-btn" alt="">
     <nav class="" id="navbar">
       <ul class="opciones">
         <li><a href="#">Mi cuenta</a></li>
@@ -28,7 +28,7 @@
   <!-- Main -->
   <main>
 <div class="container_general">
-  <img class="back_img" src="/img/Vector.png" alt="">
+  <img class="back_img" src="/img/Vector.png" onclick="vistaEcommerce()">
   <% for (var i = 0; i < datos.length; i++) { %>
 <div class="imagen_carta">
   <img src=<%= datos[i].imagen %>  class="card-img">
