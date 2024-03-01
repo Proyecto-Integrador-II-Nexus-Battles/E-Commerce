@@ -1,5 +1,5 @@
-// import { CardModel } from '../models/local-file-system/card.js' // -> LOCAL
-import { CardModel } from '../models/mongodb/card.js' // -> MONGODB
+import { CardModel } from '../models/local-file-system/card.js' // -> LOCAL
+// import { CardModel } from '../models/mongodb/card.js' // -> MONGODB
 
 export class CardsController {
   static async getAll (req, res) {

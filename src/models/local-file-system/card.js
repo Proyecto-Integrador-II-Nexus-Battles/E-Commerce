@@ -1,9 +1,13 @@
-import { readJSON } from '../../utils.js'
+// import { readJSON } from '../../utils.js'
+
+async function inventory () {
+  return fetch('http://localhost:5000/api') // -> Path de la APi de Inventario
+    .then(res => res.json())
+}
 
 export class CardModel {
-  static async getAll ({ type, minPrice, maxPrice, sale, sortOrder }) {
-    let cards = readJSON('./cards.json')
-
+  static async getAll ({ TypeCard, minPrice, maxPrice, sale, sortOrder }) {
+    let cards = await inventory()
     if (typeof sale === 'string') {
       sale = sale.toLowerCase() === 'true'
     }
@@ -15,7 +19,7 @@ export class CardModel {
 
     cards = cards.filter(card => {
       return (
-        (!type || card.type.toLowerCase() === type.toLowerCase()) &&
+        (!TypeCard || card.TypeCard.toLowerCase() === TypeCard.toLowerCase()) &&
         (!minPrice || card.price >= minPrice) &&
         (!maxPrice || card.price <= maxPrice) &&
         (!sale || card.sale === sale)
@@ -25,5 +29,3 @@ export class CardModel {
     return cards
   }
 }
-
-//
