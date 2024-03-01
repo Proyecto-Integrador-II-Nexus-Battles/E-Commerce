@@ -71,6 +71,7 @@ width: 70px;
   margin-right: 3%;
   margin-top: 20px;
   position: relative;
+  border-radius: 10px;
 }
 
 /* Barra de búsqueda */
