@@ -4,7 +4,10 @@
 }
 
 body {
-  background-color: #304C8B;
+  background-image: url('../img/fondo_detallada.jpeg' ) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -108,7 +111,7 @@ width: 100%;
   margin-top: 65px;
   grid-column: 2 / 3;
   grid-row: 1 / auto;
-  background-color: #789DCA;
+  background-color: rgba(120, 157, 202, 0.8);
   border-radius: 15px;
   box-shadow: 0px 3px 3px rgba(4, 4, 4, 0.2);
 }
