@@ -255,6 +255,7 @@ display: block;
   text-align: center;
   margin-left: 2rem;
   border: 1px solid #304C8B;
+  background-color: white;
   }
   .flecha{
     background: none;
@@ -285,7 +286,6 @@ display: block;
     .active{
     color: red;
     }
-
 @media screen and (min-width:1682px) and (max-width:1920px){
 .search_form .search_icon{
   top: -2px;
