@@ -58,11 +58,9 @@ width: 70px;
   margin-top: 2px;
   background-color: #789DCA;
 }
-
 .abrir-btn{
   display: none;
 }
-
 /* Vitrina de productos */
 .container_general {
   width: 80%;
@@ -157,14 +155,7 @@ border-radius: 7px;
 
 
 /* Estilos de las cartas/productos */
-.container_productos {
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  font-size: 1px;
-}
+
 /* Carta */
 .card {
   border: 1px solid #9e9e9e;
@@ -173,7 +164,7 @@ border-radius: 7px;
   transition: transform 0.3s ease;
   margin-bottom: 20px;
   padding-bottom: 10px;
-  margin-left: 7%;
+  margin-left: 6%;
   cursor: pointer;
 }
 .card-new
@@ -247,6 +238,54 @@ display: block;
   border-radius: 13px 13px 0 0;
 }
 
+/* paginacion */
+
+.list{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size: 1px;
+}
+.paginas{
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+  margin-left: 2rem;
+  border: 1px solid #304C8B;
+  }
+  .flecha{
+    background: none;
+    border: none;
+    }
+    .paginacion{
+    background: none;
+    border: none;
+    }
+    .paginacionuno{
+    background: none;
+    border: none;
+    color: red;
+    }
+    .listPage{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    }
+    .listPage li{
+    background: none;
+    padding: 5px;
+    margin:0 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    }
+    .active{
+    color: red;
+    }
+
 @media screen and (min-width:1682px) and (max-width:1920px){
 .search_form .search_icon{
   top: -2px;
@@ -278,6 +317,8 @@ margin-left: 20px;
 font-size: 20px;
 padding-bottom: 23px;
 }
+
+
 }
 @media screen and (min-width: 1630px) {
   header {

@@ -75,6 +75,7 @@
       </div>
       <!-- Cartas -->
       <div class="container_productos">
+        <div class="list">
         <% for (var i = 0; i < datos.length; i++) { %>
         <div class="card" onclick="vistaDetallada()">
           <div class="imagen_carta">
@@ -92,8 +93,17 @@
         <% } %>
       </div>
     </div>
+    <div class="paginas">
+      <ul class="listPage">
+          <li class="active">1</li>
+          <li>2</li>
+          <li>3</li>
+      </ul>
+    </div>
+    </div>
   </main>
   <script src="/js/navbar.js"></script>
   <script src="/js/vistaDetallada.js"></script>
+  <script src="/js/paginacion.js"></script>
 </body>
 </html>
