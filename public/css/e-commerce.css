@@ -246,17 +246,14 @@ display: block;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 10px;
-  font-size: 1px;
 }
 .paginas{
-  position: fixed;
+  margin-top: 10px;
   bottom: 20px;
   left: 50%;
   text-align: center;
-  margin-left: 2rem;
-  border: 1px solid #304C8B;
-  background-color: white;
-  }
+  margin-left: 10rem;
+    }
   .flecha{
     background: none;
     border: none;
@@ -282,6 +279,7 @@ display: block;
     margin:0 10px;
     cursor: pointer;
     border: 1px solid black;
+    background-color: white;
     }
     .active{
     color: red;
