@@ -111,7 +111,7 @@ width: 100%;
   margin-top: 65px;
   grid-column: 2 / 3;
   grid-row: 1 / auto;
-  background-color: rgba(120, 157, 202, 0.8);
+  background-color: #789DCA;
   border-radius: 15px;
   box-shadow: 0px 3px 3px rgba(4, 4, 4, 0.2);
 }
