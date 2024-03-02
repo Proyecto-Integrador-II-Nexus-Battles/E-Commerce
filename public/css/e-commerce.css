@@ -4,7 +4,10 @@
 }
 
 body {
-  background-color: #304C8B;
+  background-image: url('../img/fondo.png' ) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -64,11 +67,11 @@ width: 70px;
 /* Vitrina de productos */
 .container_general {
   width: 80%;
-  background-color: #A3B7DC;
   margin-left: 2%;
   margin-right: 3%;
   margin-top: 20px;
   position: relative;
+  background:linear-gradient(45deg,#304b8b88, #a3b7dc7b, #d8e9f97b);
   border-radius: 10px;
 }
 
@@ -101,7 +104,7 @@ main{
 /* Filtros */
 .filtros{
   margin-left: 20px;
-  background-color: #A3B7DC;
+  background:linear-gradient(45deg,#304b8b88, #a3b7dc7b, #d8e9f97b);
   width: 200px;
   margin-top: 20px;
 }
@@ -488,9 +491,7 @@ margin-bottom: 90%;
   margin-left: auto;
   margin-right: 20px;
 }
-.container_general{
-  height: 800px;
-}
+
 #rango_precio1,#rango_precio2{
   width: 35%;
   margin-left: 5px;
