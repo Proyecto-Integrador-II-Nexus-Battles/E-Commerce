@@ -4,3 +4,10 @@ GET http://localhost:3000/cards
 
 #### Filtrado Unitario // Items - Weapon - Armor - Epic
 GET http://localhost:3000/cards?TypeCard=Weapon
+
+#### Filtrado Mutliple // TypeCard - sortOrder
+GET http://localhost:3000/cards?TypeCard=Weapon&sortOrder=desc
+
+#### Filtrado Multiple // TypeCard - minPrice - maxPrice
+GET http://localhost:3000/cards?TypeCard=Weapon&minPrice=20000&maxPrice=30000
+

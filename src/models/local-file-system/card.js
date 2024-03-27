@@ -2,8 +2,7 @@
 
 async function inventory () {
   try {
-    console.log('Hola')
-    return fetch('http://localhost:1234/inventario/getAllCards') // -> Path de la APi de Inventario
+    return fetch('http://localhost:1234/inventario/getEcommerceCard') // -> Path de la APi de Inventario
       .then(res => res.json())
   } catch (err) {
     console.log('Failed to connect to server')
