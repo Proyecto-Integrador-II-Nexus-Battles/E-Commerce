@@ -5,6 +5,7 @@ export class CardsController {
   static async getAll (req, res) {
     const { TypeCard, minPrice, maxPrice, offer, sortOrder } = req.query
     const cards = await CardModel.getAll({ TypeCard, minPrice, maxPrice, offer, sortOrder })
+
     res.json(cards)
   }
 }
